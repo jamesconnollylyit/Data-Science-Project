@@ -7,6 +7,7 @@ drugB <- c(15, 18, 25, 31, 40)
 # both points and lines should be
 # plotted.
 plot(dose, drugA, type = "b")
+drugB
 
 # We can also plot more than 1
 # line on the chart using par (see next example)
