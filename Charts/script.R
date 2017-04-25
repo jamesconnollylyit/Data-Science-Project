@@ -35,7 +35,7 @@ opar <- par(no.readonly = TRUE)
 par(lty = 2, pch = 17)
 plot(dose, drugA, type = "b")
 par(opar)
-
+-------------------------------------
 # Specify graphical parameters using 
 # optionname=value pairs
 plot(dose, drugA, type = "b", lty = 2, pch = 17)
