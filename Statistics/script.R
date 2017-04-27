@@ -218,7 +218,7 @@ addmargins(mytable)
 
 # Add marginal sums to proportion table
 addmargins(prop.table(mytable))
-
+mytable
 # default is to create sum margins for all 
 # variables in a table. 
 # The following code adds a Sum column alone
