@@ -349,7 +349,8 @@ states <- state.x77[, 1:6]
 states
 
 # the cov function to provide covariances only. Covariance is a measure 
-# of how much two random variables vary together. # It’s similar to variance
+# of how much two random variables vary together. 
+# It’s similar to variance
 # but where variance tells you how a single variable varies, covariance 
 # tells you how two variables vary together
 cov(states)
@@ -377,7 +378,7 @@ library(ggm)
 # controlling for the influence of income, illiteracy rate, and high school
 # graduation rate (variables 2, 3, and 6 respectively
 
-pcor(c(1, 5, 2, 3, 6), cov(states))
+pcor(c(1, 5, 2), cov(states))
 
 # Testing a correlation coefficient for significance
 # tests the null hypothesis that the Pearson correlation 
