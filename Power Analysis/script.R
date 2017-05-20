@@ -64,9 +64,9 @@ for (i in 1:nes) {
 }
 
 plot(samplesize, effectsize, type = "l", lwd = 2, col = "red",
-ylab = "Effect Size",
-xlab = "Sample Size (per cell)",
-main = "One Way ANOVA with Power=.90 and Alpha=.05")
+     ylab = "Effect Size",
+     xlab = "Sample Size (per cell)",
+     main = "One Way ANOVA with Power=.90 and Alpha=.05")
 
 # Creating power analysis plots
 library(pwr)
